@@ -38,9 +38,6 @@ const serieSchema = new Schema(
   }
 );
 
-
-module.exports = model('User', userSchema);
-
 // every new serie will be saved in the "series" collection in the database:
 
 module.exports = model('Serie', serieSchema);
