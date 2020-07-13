@@ -5,11 +5,9 @@ const router = express.Router();
 router.get("/", (req, res, next) => {
   Serie.find()
     .then((series) => {
-      res.render("index", {
-        series: series,
-      });
-    }) 
-    .catch((error) => console.log(error))
+      res.render("index", { series });
+    })
+    .catch((error) => console.log(error));
 });
 
 module.exports = router;
