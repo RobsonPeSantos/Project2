@@ -30,7 +30,113 @@ const series = [
       "image": "https://i.pinimg.com/474x/9c/62/a3/9c62a3d94edd69aa71c81cd005e8b933.jpg", //foto de capa
       "description": "Oito ladrões se trancam com reféns na Casa da Moeda da Espanha. Seu líder manipula a polícia para realizar um plano. Será o maior roubo da história, ou uma missão em vão?.", //descrição
       "rate": 8
-    },   
+    }, 
+    {
+      "title": "Black Mirror", //título
+      "cast": ["Jesse Plemons","Cristin Milioti","Jimmi Simpson"], //elenco
+      "genre": "Drama & Ficção Científica", // gênero
+      "image": "https://preview.redd.it/hjgce7dqed231.png?auto=webp&s=03f4f4368caec69cf52f97379d77565687df0e88", //foto de capa
+      "description": "Esta série antológica de ficção científica explora um futuro próximo onde a natureza humana e a tecnologia de ponta entram em um perigoso conflito.", //descrição
+      "rate": 10
+    },
+    {
+      "title": "Breaking Bad", //título
+      "cast": ["Bryan Cranston","Aaron Paul","Anna Gunn"], //elenco
+      "genre": "Drama & Crime", // gênero
+      "image": "https://m.media-amazon.com/images/M/MV5BMjhiMzgxZTctNDc1Ni00OTIxLTlhMTYtZTA3ZWFkODRkNmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg", //foto de capa
+      "description": "Ao saber que tem câncer, um professor passa a fabricar metanfetamina pelo futuro da família, mudando o destino de todos.", //descrição
+      "rate": 10
+    },
+    {
+      "title": "Vikings", //título
+      "cast": ["Travis Fimmel","Katheryn Winnick","Clive Standen"], //elenco
+      "genre": "Drama & Época", // gênero
+      "image": "https://upload.wikimedia.org/wikipedia/pt/thumb/7/7a/Vikings_Temporada_2_Poster.jpg/220px-Vikings_Temporada_2_Poster.jpg", //foto de capa
+      "description": "Esta série dramática acompanha a vida do viking Ragnar Lothbrok em sua jornada para ampliar o domínio nórdico e desafiar um líder incompetente e sem visão.", //descrição
+      "rate": 9
+    },
+    {
+      "title": "Love, Death & Robots", //título
+      "cast": ["Topher Grace,Mary Elizabeth Winstead,Gary Cole"], //elenco
+      "genre": "Animação & Ficção Científica", // gênero
+      "image": "https://br.web.img3.acsta.net/pictures/19/02/15/09/54/4975550.jpg", //foto de capa
+      "description": "Criaturas aterrorizantes, surpresas bizarras e humor ácido. Tudo isso e muito mais nesta série de animação de Tim Miller e David Fincher.", //descrição
+      "rate": 8
+    },
+    {
+      "title": "Anne with an E", //título
+      "cast": ["Amybeth McNulty","Geraldine James","R.H. Thomson"], //elenco
+      "genre": "Drama & Época", // gênero
+      "image": "https://br.web.img3.acsta.net/pictures/19/02/15/09/54/4975550.jpg", //foto de capa
+      "description": 'Neste filme baseado no livro "Anne de Green Gables", uma impetuosa órfã é adotada por engano por um casal de irmãos solteirões do interior.', //descrição
+      "rate": 9
+    },
+    {
+      "title": "Brooklyn Nine-Nine", //título
+      "cast": ["Andy Samberg", "Andre Braugher", "Stephanie Beatriz"], //elenco
+      "genre": "Comédia", // gênero
+      "image": "https://m.media-amazon.com/images/M/MV5BNzVkYWY4NzYtMWFlZi00YzkwLThhZDItZjcxYTU4ZTMzMDZmXkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_UY1200_CR90,0,630,1200_AL_.jpg", //foto de capa
+      "description": "O brilhante e imaturo detetive Jake Peralta precisa aprender a seguir as regras e trabalhar em equipe quando um capitão exigente assume o comando de seu esquadrão.", //descrição
+      "rate": 8
+    },
+    {
+      "title": "Naruto", //título
+      "cast": ["Junko Takeuchi","Chie Nakamura","Noriaki Sugiyama"], //elenco
+      "genre": "Anime", // gênero
+      "image": "https://m.media-amazon.com/images/M/MV5BZmQ5NGFiNWEtMmMyMC00MDdiLTg4YjktOGY5Yzc2MDUxMTE1XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY1200_CR93,0,630,1200_AL_.jpg", //foto de capa
+      "description": "Guiado pelo espírito demoníaco dentro dele, o órfão Naruto aprende a controlar seus poderes como um ninja nesta série de aventura anime.", //descrição
+      "rate": 8
+    },
+    {
+      "title": "Narcos", //título
+      "cast": ["Wagner Moura", "Pedro Pascal", "Boyd Holbrook"], //elenco
+      "genre": "Baseado em fatos reais & Crime", // gênero
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS_BouVDgBV1KR189sPFimFLAttOV6zvisQFg&usqp=CAU", //foto de capa
+      "description": "A notória série sobre o tráfico é baseada na história real de violência e poder dos cartéis colombianos.", //descrição
+      "rate": 9
+    },
+    {
+      "title": "The Good Place", //título
+      "cast": ["Kristen Bell", "Ted Danson", "William Jackson Harper"], //elenco
+      "genre": "Comédia", // gênero
+      "image": "https://upload.wikimedia.org/wikipedia/pt/thumb/7/79/The_Good_Place_temporada_1.jpg/200px-The_Good_Place_temporada_1.jpg", //foto de capa
+      "description": "Depois de morrer, a egocêntrica Eleanor é enviada por engano ao lado bom do Além. Agora ela está determinada a se tornar uma pessoa melhor para continuar lá.", //descrição
+      "rate": 8
+    },
+    {
+      "title": "Sintonia", //título
+      "cast": ["KondZilla","Guilherme Quintella","Felipe Braga"], //elenco
+      "genre": "Crime & Música", // gênero
+      "image": "https://m.media-amazon.com/images/M/MV5BNjk0NGU5MjMtMGU5NC00ZGE1LWFmMTAtMDliY2Y4ZDJkMmNhXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_UX182_CR0,0,182,268_AL_.jpg", //foto de capa
+      "description": "Criados juntos na quebrada de São Paulo, três jovens amigos correm atrás de seus sonhos rodeados por música, drogas e religião.", //descrição
+      "rate": 7
+    },
+    {
+      "title": "Marvel - O Justiceiro", //título
+      "cast": ["Jon Bernthal","Ben Barnes","Amber Rose Revah"], //elenco
+      "genre": "Baseadas em hq's", // gênero
+      "image": "https://upload.wikimedia.org/wikipedia/pt/thumb/1/17/The_Punisher_season_2_poster.jpg/230px-The_Punisher_season_2_poster.jpg", //foto de capa
+      "description": "O ex-marine Frank Castle só quer punir os criminosos responsáveis pela morte da sua família, mas torna-se alvo de uma conspiração militar.", //descrição
+      "rate": 8
+    },
+    {
+      "title": "BoJack Horseman", //título
+      "cast": ["Will Arnett", "Aaron Paul","Amy Sedaris"], //elenco
+      "genre": "Animação", // gênero
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/BoJack_Horseman.jpg/220px-BoJack_Horseman.jpg", //foto de capa
+      "description": "Conheça o cavalo mais amado da TV dos anos 90... vinte anos depois! Ranzinza e com um coração de... não exatamente ouro... mas parecido. Latão?", //descrição
+      "rate": 9
+    },
+    {
+      "title": "A Máfia dos Tigres", //título
+      "cast": [], //elenco
+      "genre": "Documentário", // gênero
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/14/Tiger_King%2C_Murder%2C_Mayhem_and_Madness_publicity_image.jpg", //foto de capa
+      "description": "O dono de um zoológico perde o controle e acaba acusado de encomendar um assassinato no submundo da criação de grandes felinos. Baseada em fatos reais.", //descrição
+      "rate": 10
+    },
+    
+            
 
       
 
