@@ -135,6 +135,70 @@ const series = [
       "description": "O dono de um zoológico perde o controle e acaba acusado de encomendar um assassinato no submundo da criação de grandes felinos. Baseada em fatos reais.", //descrição
       "rate": 10
     },
+    {
+      "title": "Friends", //título
+      "cast": ["Jennifer Aniston","Courteney Cox","Lisa Kudrow"], //elenco
+      "genre": "Comédia", // gênero
+      "image": "https://upload.wikimedia.org/wikipedia/pt/d/d6/Friends_season_one_cast.jpg", //foto de capa
+      "description": "Esta série de enorme sucesso acompanha as aventuras de seis amigos que enfrentam as armadilhas da vida, do trabalho e do amor nos anos 1990.", //descrição
+      "rate": 10
+    },
+    {
+      "title": "The Walking Dead", //título
+      "cast": ["JAndrew Lincoln","Steven Yeun","Norman Reedus"], //elenco
+      "genre": "Terror & Drama", // gênero
+      "image": "https://upload.wikimedia.org/wikipedia/pt/thumb/a/a2/TheWalkingDead-P%C3%B4ster.jpg/220px-TheWalkingDead-P%C3%B4ster.jpg", //foto de capa
+      "description": "Zumbis dominam o mundo dos vivos, e os sobreviventes unem forças para manter viva a raça humana.", //descrição
+      "rate": 10
+    },
+    {
+      "title": "The Seven Deadly Sins", //título
+      "cast": ["Yuki Kaji","Sora Amamiya","Misaki Kuno"], //elenco
+      "genre": "Anime", // gênero
+      "image": "https://upload.wikimedia.org/wikipedia/pt/thumb/a/a2/TheWalkingDead-P%C3%B4ster.jpg/220px-TheWalkingDead-P%C3%B4ster.jpg", //foto de capa
+      "description": "Depois que seu reino é dominado por tiranos, uma princesa tenta encontrar um grupo de cavaleiros perigosos para ajudá-la a recuperar suas terras.", //descrição
+      "rate": 9
+    },
+    {
+      "title": "Titãs", //título
+      "cast": ["Brenton Thwaites","Anna Diop","Teagan Croft"], //elenco
+      "genre": "Baseadas em hq's", // gênero
+      "image": "https://upload.wikimedia.org/wikipedia/pt/thumb/a/a2/TheWalkingDead-P%C3%B4ster.jpg/220px-TheWalkingDead-P%C3%B4ster.jpg", //foto de capa
+      "description": "Depois de tentar a carreira solo, o antigo parceiro do Batman, Dick Grayson, encontra um grupo de jovens heróis precisando desesperadamente de um mentor.", //descrição
+      "rate": 9
+    },
+    {
+      "title": "The Sinner", //título
+      "cast": ["Jessica Biel","Bill Pullman","Christopher Abbott"], //elenco
+      "genre": "Crime & Drama", // gênero
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/99/The_Sinner.jpg", //foto de capa
+      "description": "Em uma pequena cidade de Nova York, um detetive busca respostas para crimes perturbadores enquanto luta contra os próprios demônios.", //descrição
+      "rate": 9
+    },
+    {
+      "title": "The Witcher", //título
+      "cast": ["Henry Cavill","Anya Chalotra","Freya Allan"], //elenco
+      "genre": "Fantasia & Drama", // gênero
+      "image": "https://vignette.wikia.nocookie.net/witcher/images/a/a4/Netflix_poster_s1.jpg/revision/latest?cb=20191120213257", //foto de capa
+      "description": "O mutante Geralt de Rívia é um caçador de monstros que luta para encontrar seu lugar num mundo onde as pessoas muitas vezes são mais perversas que as criaturas selvagens.", //descrição
+      "rate": 10
+    },
+    {
+      "title": "Sex Education", //título
+      "cast": ["Asa Butterfield","Gillian Anderson","Ncuti Gatwa"], //elenco
+      "genre": "Comédia", // gênero
+      "image": "https://vignette.wikia.nocookie.net/sex-education-netflix/images/1/1e/Sex_Education_Season_2_Poster.jpg/revision/latest?cb=20200110041110", //foto de capa
+      "description": "O inseguro Otis manja tudo quando o negócio é aconselhamento sexual, graças à sua mãe sexóloga. E aí a rebelde Maeve propõe criar uma clínica de terapia sexual na escola.", //descrição
+      "rate": 10
+    },
+    {
+      "title": "RuPaul's Drag Race", //título
+      "cast": ["RuPaul Charles","Michelle Visage","Ross Mathews"], //elenco
+      "genre": "Reality Show", // gênero
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/RuPauls-Drag-Race-S11.jpg/220px-RuPauls-Drag-Race-S11.jpg", //foto de capa
+      "description": "RuPaul está à procura da melhor drag queen dos EUA! E não faltam candidatas na disputa do título e do prêmio de cem mil dólares.", //descrição
+      "rate": 9
+    },
     
             
 
