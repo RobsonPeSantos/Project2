@@ -16,7 +16,6 @@ router.post('/signup', (req, res, next) => {
     return;
   }
 
-
   const regex = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}/;
   if (!regex.test(password)) {
     res
