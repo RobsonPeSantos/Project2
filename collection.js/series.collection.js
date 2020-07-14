@@ -199,6 +199,31 @@ const series = [
       "description": "RuPaul está à procura da melhor drag queen dos EUA! E não faltam candidatas na disputa do título e do prêmio de cem mil dólares.", //descrição
       "rate": 9
     },
+    {
+      "title": "The Last Kingdom", //título
+      "cast": ["Alexander Dreymon","Emily Cox","David Dawson"], //elenco
+      "genre": "Ação & Época", // gênero
+      "image": "https://vignette.wikia.nocookie.net/the-last-kingdom/images/d/da/TLK_S4.png/revision/latest?cb=20200514063718", //foto de capa
+      "description": "Enquanto Alfredo, o Grande, defende seu reino de invasões nórdicas, Uhtred - um saxão criado por vikings - planeja reivindicar o que é seu por direito.", //descrição
+      "rate": 9
+    },
+    {
+      "title": "Riverdale", //título
+      "cast": ["K.J. Apa","Lili Reinhart","Camila Mendes"], //elenco
+      "genre": "Drama & Crime", // gênero
+      "image": "https://upload.wikimedia.org/wikipedia/pt/5/50/Riverdale_Temporada_1_Poster.jpg", //foto de capa
+      "description": "Enquanto tentam lidar com problemas típicos da adolescência como amor, sexo, escola e família, Archie e sua turma se envolvem em um grande mistério.", //descrição
+      "rate": 8
+    },
+    {
+      "title": "Riverdale", //título
+      "cast": ["K.J. Apa","Lili Reinhart","Camila Mendes"], //elenco
+      "genre": "Drama & Crime", // gênero
+      "image": "https://upload.wikimedia.org/wikipedia/pt/5/50/Riverdale_Temporada_1_Poster.jpg", //foto de capa
+      "description": "Enquanto tentam lidar com problemas típicos da adolescência como amor, sexo, escola e família, Archie e sua turma se envolvem em um grande mistério.", //descrição
+      "rate": 8
+    },
+
     
             
 
