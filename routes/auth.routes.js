@@ -106,8 +106,7 @@ router.get("/userProfile", (req, res) => {
       userInSession: req.session.currentUser,
     });
   }
-
-  res.redirect("/login");
+    res.redirect("/login");
 });
 
 module.exports = router;
