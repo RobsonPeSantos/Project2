@@ -1,9 +1,11 @@
 <div>
     {{#each series}}
-       <h4>{{title}}</h4>
+      <h4>{{title}}</h4>
        <p>{{cast}}</p>
        <p>{{genre}}</p>
+       <a href="/serie/{{id}}">
        <img src="{{image}}" alt="">
+       </a>
        <span>{{description}}</span>
        <p><strong>{{rate}}</strong></p>
     {{/each}}
