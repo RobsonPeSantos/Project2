@@ -216,13 +216,38 @@ const series = [
       "rate": 8
     },
     {
-      "title": "Riverdale", //título
-      "cast": ["K.J. Apa","Lili Reinhart","Camila Mendes"], //elenco
+      "title": "13 Reasons Why", //título
+      "cast": ["Dylan Minnette","Katherine Langford","Alisha Boe"], //elenco
       "genre": "Drama & Crime", // gênero
-      "image": "https://upload.wikimedia.org/wikipedia/pt/5/50/Riverdale_Temporada_1_Poster.jpg", //foto de capa
-      "description": "Enquanto tentam lidar com problemas típicos da adolescência como amor, sexo, escola e família, Archie e sua turma se envolvem em um grande mistério.", //descrição
+      "image": "https://upload.wikimedia.org/wikipedia/pt/b/b8/13_Reasons_Why_Temporada_1_Poster.jpg", //foto de capa
+      "description": "Clay Jensen é um estudante que se vê envolvido em uma série de mistérios provocados pelo trágico suicídio de uma amiga.", //descrição
       "rate": 8
     },
+    {
+      "title": "Mistérios sem Solução", //título
+      "cast": [], //elenco
+      "genre": "Documentário", // gênero
+      "image": "https://imagens.canaltech.com.br/304769.559252-Misterios-Sem-Solucao.jpg", //foto de capa
+      "description": "Esta série icônica está de volta com casos reais de desaparecimentos, assassinatos chocantes e encontros paranormais.", //descrição
+      "rate": 8
+    },
+    {
+      "title": "The Flash", //título
+      "cast": ["Grant Gustin","Candice Patton","Danielle Panabaker"], //elenco
+      "genre": "Baseadas em hq's", // gênero
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/The_Flash_season_3.jpg/220px-The_Flash_season_3.jpg", //foto de capa
+      "description": "Um perito forense desperta de um coma com poderes especiais que serão postos à prova na luta contra forças que ameaçam a cidade.", //descrição
+      "rate": 7
+    },
+    {
+      "title": "Stranger Things", //título
+      "cast": ["Winona Ryder","David Harbour","Finn Wolfhard"], //elenco
+      "genre": "Ficção Científica", // gênero
+      "image": "", //foto de capa
+      "description": "Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, forças sobrenaturais e uma menina.", //descrição
+      "rate": 8
+    },
+
 
     
             

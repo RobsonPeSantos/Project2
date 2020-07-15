@@ -20,11 +20,11 @@ router.get("/serie/:serieId", async (req, res) => {
   }
 });
 
-router.get("/create/serie", (req, res) => {
-  res.render("create-form");
+router.get('/create/series', (req, res) => {
+  res.render('create-form');
 });
 
-router.post("/create/serie", async (req, res, next) => {
+router.post("/create/series", async (req, res, next) => {
   const data = req.body;
 
   try {
@@ -35,7 +35,7 @@ router.post("/create/serie", async (req, res, next) => {
   }
 });
 
-router.get("/idit/serie/:id", async (req, res, next) => {
+router.get("/edit/serie/:id", async (req, res, next) => {
   const { id } = req.params;
   try {
     const serie = await Serie.findById(id);
@@ -45,7 +45,7 @@ router.get("/idit/serie/:id", async (req, res, next) => {
   }
 });
 
-router.post("/idit/serie/:id", async (req, res, next) => {
+router.post("/edit/serie/:id", async (req, res, next) => {
   const { id } = req.params;
   const data = req.body;
   try {
