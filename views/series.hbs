@@ -1,12 +1,10 @@
 <div>
+  <div>
     {{#each series}}
-      <h4>{{title}}</h4>
-       <p>{{cast}}</p>
-       <p>{{genre}}</p>
-       <a href="/serie/{{id}}">
-       <img src="{{image}}" alt="">
-       </a>
-       <span>{{description}}</span>
-       <p><strong>{{rate}}</strong></p>
+    <h4>{{title}}</h4>
+    <a href="/serie/{{id}}">
+      <img style="width: 150px; heigth: 150px;" src="{{image}}" alt="">
+    </a>
     {{/each}}
+  </div>
 </div>
