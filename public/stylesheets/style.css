@@ -62,6 +62,8 @@ a {
   background-image: url("http://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg");
   padding: 20px 40px;
   position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #main-landing > header {
@@ -265,4 +267,20 @@ span.psw {
 
 .remember {
   color: black;
+}
+
+/**************** FOOOTER ***************/
+
+footer {
+  background: #000307;
+  color: #868c96;
+}
+
+footer p {
+  padding: 100px 0;
+  text-align: center;
+}
+
+footer img {
+  width: 44px;
 }
