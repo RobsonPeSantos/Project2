@@ -239,6 +239,15 @@ const series = [
       "description": "Um perito forense desperta de um coma com poderes especiais que serão postos à prova na luta contra forças que ameaçam a cidade.", //descrição
       "rate": 7
     },
+    {
+      "title": "Stranger Things", //título
+      "cast": ["Winona Ryder","David Harbour","Finn Wolfhard"], //elenco
+      "genre": "Ficção Científica", // gênero
+      "image": "", //foto de capa
+      "description": "Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, forças sobrenaturais e uma menina.", //descrição
+      "rate": 8
+    },
+
 
     
             

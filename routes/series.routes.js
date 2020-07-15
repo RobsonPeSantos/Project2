@@ -20,11 +20,11 @@ router.get('/serie/:serieId', async (req, res) => {
   }
 });
 
-router.get('/serie/create', (req, res) => {
+router.get('/create/series', (req, res) => {
   res.render('create-form');
 });
 
-router.post("/serie/create", async (req, res, next) => {
+router.post("/create/series", async (req, res, next) => {
   const data = req.body;
   try {
     const result = await Serie.create(data);
