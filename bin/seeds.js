@@ -252,6 +252,118 @@ const serie = [
       "description": "Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, forças sobrenaturais e uma menina.", //descrição
       "rate": 8
     },
+    {
+      "title": "The 100", //título
+      "cast": ["Eliza Taylor","Paige Turco","Bob Morley"], //elenco
+      "genre": "Ficção Científica", // gênero
+      "image": "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZye3YX5G6CYyXcwZTNgR_g67vw-kjxw2uCzbq09k260ViRbGa35WIA6JT_PLb1uFqx1i91LdH_4ZX8tYAzZGpTviT4.jpg?r=dcd", //foto de capa
+      "description": "Quase 100 anos após um apocalipse nuclear devastar a Terra, 100 sobreviventes de uma estação espacial voltam para avaliar as condições do planeta.", //descrição
+      "rate": 8
+    },
+    {
+      "title": "Um Maluco no Pedaço", //título
+      "cast": ["Will Smith","Alfonso Ribeiro","James Avery"], //elenco
+      "genre": "Comédia", // gênero
+      "image": "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABb3ToU-8OzRUpGCmNMwtkmMsXw60fi2o_812elR9Z61fMBMpAVjduHKNg1Ezv9mcFPFPkJFY_55Avz6qhDxk6R50yhY.jpg?r=adf", //foto de capa
+      "description": "A vida na mansão da poderosa família Banks vira de cabeça para baixo quando Will, um parente malandro da Filadélfia, vai morar com eles na mansão de Bel-Air.", //descrição
+      "rate": 10
+    },
+    {
+      "title": "Lucifer", //título
+      "cast": ["Tom Ellis","Lauren German","Kevin Alejandro"], //elenco
+      "genre": "Baseadas em hq's", // gênero
+      "image": "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABec0ULUtvuHYMtpb3dV8pdehgBAMx8KZLhWRX3euzOINpZ-8IFw0N5f_ju4WyR4TX0aBfZz33foEFTRpn1bb0bEV2HHCVUM9DzYcTOVh-pRDQXJSVzXWb3oP-IHL.jpg?r=491", //foto de capa
+      "description": "Entediado com a vida nas trevas, o diabo se muda para Los Angeles, abre um piano-bar e empresta sua sabedoria a uma investigadora de assassinatos.", //descrição
+      "rate": 9
+    },
+    {
+      "title": "Lucifer", //título
+      "cast": ["Tom Ellis","Lauren German","Kevin Alejandro"], //elenco
+      "genre": "Baseadas em hq's", // gênero
+      "image": "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABec0ULUtvuHYMtpb3dV8pdehgBAMx8KZLhWRX3euzOINpZ-8IFw0N5f_ju4WyR4TX0aBfZz33foEFTRpn1bb0bEV2HHCVUM9DzYcTOVh-pRDQXJSVzXWb3oP-IHL.jpg?r=491", //foto de capa
+      "description": "Entediado com a vida nas trevas, o diabo se muda para Los Angeles, abre um piano-bar e empresta sua sabedoria a uma investigadora de assassinatos.", //descrição
+      "rate": 9
+    },
+    {
+      "title": "Vis a Vis", //título
+      "cast": ["Najwa Nimri","Maggie Civantos","Itziar Castro"], //elenco
+      "genre": "Drama & Crime", // gênero
+      "image": "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZItBUiLTjat8cMxVpD8FVwdHw8L31W8Q7tRcSNKmU8x-VWCez4Ijp6JOsq_QRDdzRfktUBsHcMU0PRC9tHDvEsApLzugl6SkcUQUEpgz-XaeKNVNBlmk-ROeFYg.jpg?r=d3e", //foto de capa
+      "description": "Manipulada pelo homem por quem se apaixonou, essa moça cometeu um crime. Condenada à prisão, ela agora deve aprender a viver num ambiente hostil e impiedoso.", //descrição
+      "rate": 9
+    },
+    {
+      "title": "Peaky Blinders: Sangue, Apostas e Navalhas", //título
+      "cast": ["Cillian Murphy","Sam Neill","Helen McCrory"], //elenco
+      "genre": "Crime", // gênero
+      "image": "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABcORGbUbvbA0P_SGyU9AJc0qHV7w-IaP3UDBdkNkdpDh7exeJZ8EqkHT7r4bOVDZjUS7gMZhYJtXsFJ9DiZX0UMZCzujvw0oXtKtT7Og3uINI6F_dzHlMJhPfumO.jpg?r=1ce", //foto de capa
+      "description": "Uma notória gangue da Inglaterra de 1919 é liderada pelo cruel Tommy Shelby, um criminoso disposto a subir na vida a qualquer preço.", //descrição
+      "rate": 10
+    },
+    {
+      "title": "As Telefonistas", //título
+      "cast": ["Blanca Suárez","Yon González","Ana Fernández"], //elenco
+      "genre": "Época", // gênero
+      "image": "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdUKrVxrqdC4kYem9oVAvYBymO1_TZbweuWzlrGkXvNlPzcAF6s9M4XunDMUvmNTbQ09HAGJanQVrC5YfCVAHC7KHx-MPFJT7JH632E_UYKXB8A6RiCV8Tt6_eE1z2N3MgOxGaOaV9Kvjx42p9aWZWMiu600-Q.jpg?r=953", //foto de capa
+      "description": "Na Madri dos anos 20, quatro amigas vivem a revolução dos costumes ao entrar na força de trabalho e lidar com namoros e amizades longe de casa.", //descrição
+      "rate": 9
+    },
+    {
+      "title": "Arremesso Final", //título
+      "cast": ["Michael Jordan","Scottie Pippen","Dennis Rodman"], //elenco
+      "genre": "Documentário", // gênero
+      "image": "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWUoSt5FqwI-MdfDIvA02DcS1hnH5rUxLgMm7PYAI1cV0K3j3Z7qnjiqCUVR1AuYe7wSv3S9Oh5qyeMSSL1nu8VhnI_SH4uLlW95V6tFMq0ytTzojYBIG4wjRUqd.jpg?r=4e2", //foto de capa
+      "description": "Esse relato definitivo sobre a carreira de Michael Jordan e o time do Chicago Bulls nos anos 90 traz imagens inéditas da temporada de 1997–1998.", //descrição
+      "rate": 10
+    },
+    {
+      "title": "One-Punch Man", //título
+      "cast": ["Makoto Furukawa","Kaito Ishikawa","Yuki Kaji"], //elenco
+      "genre": "Anime", // gênero
+      "image": "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWtwoTDjSL2i_0L9CV7lKyrXy8XpZTK_Uzd3XOAKjH8ZEGDKg644rWC5Xv4xGP-Fes42mLzAp3hwMSaRgcpybDEGlJI.jpg?r=e9c", //foto de capa
+      "description": "O super-herói mais forte do mundo pode matar qualquer um com um só golpe. Mas, com uma vida sem desafios, ele sofre com o tédio e a depressão.", //descrição
+      "rate": 10
+    },
+    {
+      "title": "O Mundo Sombrio de Sabrina", //título
+      "cast": ["Kiernan Shipka","Ross Lynch","Miranda Otto"], //elenco
+      "genre": "Terror & Ação", // gênero
+      "image": "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABeifOyicK2IhBjs8ETB9aQbz1l5bh8tudUEIUKFA_Qj07Bt8LhXARUU-c7Y_NYY77HuHs1AMYaKhQWKHBvXRdLdzFQdJG0UPfkSxkvP18eYoC445q0HDSvPbGCXJ.jpg?r=2e6", //foto de capa
+      "description": "Bruxa e também mortal, a jovem Sabrina Spellman fica dividida entre a vida normal de adolescente e o legado de sua família feiticeira.", //descrição
+      "rate": 8
+    },
+    {
+      "title": "Glee", //título
+      "cast": ["Lea Michele","Chris Colfer","Jane Lynch"], //elenco
+      "genre": "Musical", // gênero
+      "image": "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABeifOyicK2IhBjs8ETB9aQbz1l5bh8tudUEIUKFA_Qj07Bt8LhXARUU-c7Y_NYY77HuHs1AMYaKhQWKHBvXRdLdzFQdJG0UPfkSxkvP18eYoC445q0HDSvPbGCXJ.jpg?r=2e6", //foto de capa
+      "description": "Em meio a problemas de relacionamento com a treinadora Sue Sylvester, o professor Will Schuester tenta transformar os alunos da escola em verdadeiros vencedores.", //descrição
+      "rate": 10
+    },
+    {
+      "title": "Community", //título
+      "cast": ["Joel McHale","Gillian Jacobs","Danny Pudi"], //elenco
+      "genre": "Comédia", // gênero
+      "image": "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTrGZVeoUKtvSzVVxV0JtYpCIHDIcDIVZ78znhCiKEbZZnDvzNiSLI7NFPY9wqxvR0gv9_iFBiZzHoxn6q85ZM6c6Tg.jpg?r=190", //foto de capa
+      "description": "Quando seu diploma falso é descoberto, o advogado Jeff Winger volta à faculdade e forma um grupo de estudos muito peculiar.", //descrição
+      "rate": 9
+    },
+    {
+      "title": "Master of None", //título
+      "cast": ["Aziz Ansari","Noël Wells","Eric Wareheim"], //elenco
+      "genre": "Comédia", // gênero
+      "image": "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABW7EnoJjVRGWvtassU9bc9UK07abehpjJJzQclZcmsVAQ00N8sfjrWAaEmrBHhfH3gFR62yox9YjuB3Yl6TEkBkQ5A5fxMEgarpThxd3DXk5Vh7ptdqVK1izTZBR.jpg?r=74c", //foto de capa
+      "description": "Nesta série premiada, o ator Dev tenta alavancar sua carreira e dar um jeito em sua vida sentimental com a ajuda de um eclético grupo de amigos.", //descrição
+      "rate": 10
+    },
+    {
+      "title": "Você", //título
+      "cast": ["Penn Badgley","Elizabeth Lail","Victoria Pedretti"], //elenco
+      "genre": "Crime", // gênero
+      "image": "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABe3_WSuObHaeuwNvgDF-ddI_Zc3gwsO3z-6OdsxVGL-9D9QcxpNSleB9H1NCSW28QcFpKQn5z3NY1trmJWumj0OWagv7xgH93hhZ7TKpCjr4rc0Od_UZXNXHI1Rx.jpg?r=76e", //foto de capa
+      "description": "Obsessivo e perigosamente charmoso, ele vai ao extremo para entrar na vida de quem o fascina. Você pode acabar fisgada sem nem perceber. Aí, pode ser tarde demais.", //descrição
+      "rate": 8
+    },
 ];
 
 (async function seedDB() {
