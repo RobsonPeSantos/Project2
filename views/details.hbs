@@ -1,11 +1,14 @@
-<h1>Deatils</h1><a href="/series">Series</a>
-<div>
-    {{#each serie}}
-       <h4>{{title}}</h4>
-       <p>{{cast}}</p>
-       <p>{{genre}}</p>
-       <img src="{{image}}" alt="">
-       <span>{{description}}</span>
-       <p><strong>{{rate}}</strong></p>
-    {{/each}}
+<link rel="stylesheet" href="/stylesheets/style.css" />
+<div class="details">
+    {{#with serie}}
+    <div>
+        <img src="{{image}}" alt="">
+    </div>
+    <h4>Title: {{title}}</h4>
+    <p class="p">Cast : {{cast}}</p>
+    <p class="pg"> Genre : {{genre}}</p>
+    <span>Description : {{description}}</span>
+    <p class="rate"><strong>Rate : {{rate}}</strong></p>
+    <a href="/delete/serie/{{id}}">Deletear serie</a>
+    {{/with}}
 </div>
