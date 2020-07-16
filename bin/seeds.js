@@ -277,14 +277,6 @@ const serie = [
       "rate": 9
     },
     {
-      "title": "Lucifer", //título
-      "cast": ["Tom Ellis","Lauren German","Kevin Alejandro"], //elenco
-      "genre": "Baseadas em hq's", // gênero
-      "image": "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABec0ULUtvuHYMtpb3dV8pdehgBAMx8KZLhWRX3euzOINpZ-8IFw0N5f_ju4WyR4TX0aBfZz33foEFTRpn1bb0bEV2HHCVUM9DzYcTOVh-pRDQXJSVzXWb3oP-IHL.jpg?r=491", //foto de capa
-      "description": "Entediado com a vida nas trevas, o diabo se muda para Los Angeles, abre um piano-bar e empresta sua sabedoria a uma investigadora de assassinatos.", //descrição
-      "rate": 9
-    },
-    {
       "title": "Vis a Vis", //título
       "cast": ["Najwa Nimri","Maggie Civantos","Itziar Castro"], //elenco
       "genre": "Drama & Crime", // gênero
