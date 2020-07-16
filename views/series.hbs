@@ -1,10 +1,12 @@
-<div>
-  <div>
+<link rel="stylesheet" href="/stylesheets/style.css">
+<div class="box" style="background-color: #000;">
+  <a><img style="border: 2px solid #000000;" src="/images/vikings.jpg" alt="Vikings"></a>
     {{#each series}}
-    <h4>{{title}}</h4>
-    <a href="/serie/{{id}}">
-      <img style="width: 150px; heigth: 150px;" src="{{image}}" alt="">
-    </a>
-    {{/each}}
+  <div class="box1">
+    <h4 style="color:white">{{title}}</h4>
+      <a href="/serie/{{id}}">
+        <img style="width: 160px; heigth: 150px;" src="{{image}}" alt="">
+      </a>
   </div>
+{{/each}}
 </div>
