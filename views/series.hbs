@@ -1,19 +1,102 @@
-<link rel="stylesheet" href="/stylesheets/style.css">
-<ul>
-  <li><a class="active" href="/login"><h1 class="title2">IRON SERIES</h1></a></li>
-  <li><a href="/login">HOME</a></li>
-  <li><a href="/login">HOME</a></li>
-  <li><a href="/signup">CADASTRE-SE</a></li>
-        <li><a class="nav-location" href="/series">SÉRIES</a></li>
-  </ul>
-<div class="box" style="background-color: #000;">
-  <a><img style="border: 2px solid #000000;" src="/images/vikings.jpg" alt="Vikings"></a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="/stylesheets/footer.css">
+  <link rel="stylesheet" href="stylesheets/navbar.css">
+  <link rel="stylesheet" href="stylesheets/carrossel.css">
+  <link rel="stylesheet" href="stylesheets/carousel-banner.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap" rel="stylesheet">
+  
+  <title>Document</title>
+  </head>
+  
+  <body>
+    <div class="navbar">
+           <div class="logo">
+        
+          <h1 >IRONSERIES</h1>
+          <link rel="stylesheet" href="/auth/login.hbs">
+                
+      </div>
+            <div class="menu">
+                <div class="menu-button bt1 unselectable"><a class="active" href="/login">HOME</a></div>
+                <div class="menu-button bt2 unselectable"><a class="active" href="/signup">CADASTRE-SE</a></div>
+                <div class="menu-button bt3 unselectable"><a class="nav-location"href="/series">SÉRIES</a></div>
+            </div>
+            <div class="menu-mobile-btn">
+                <div class="hamburger">
+                    <div class="hamb-ico"><p onclick="myFunction()" class="dummyicon unselectable">X</p></div>
+                </div>
+            </div>
+            <div id="menu-mob" class="menu-mobile">
+                <div class="menu-button bt1 unselectable"><a class="active" href="/login">HOME</a></div>
+                <div class="menu-button bt2 unselectable"><a class="active" href="/signup">CADASTRE-SE</a></div>
+                <div class="menu-button bt3 unselectable"><a class="nav-location"href="/series">SÉRIES</a></div>
+            </div>
+        
+    </div>
+  
+<div class="background">
+  <section>
+    
+      <div class="carousel">
+    <div class="carousel-inner">
+        
+        <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+        <div class="carousel-item">
+            <img src="https://i.ibb.co/LCsYXgb/Slide1.png">
+        </div>
+        <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+        <div class="carousel-item">
+            <img src="https://i.ibb.co/R9vMLpz/Slide2.png">
+        </div>
+        <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+        <div class="carousel-item">
+            <img src="https://i.ibb.co/tHswnKY/Slide3.png">
+        </div>
+        <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+        <label for="carousel-2" class="carousel-control next control-1">›</label>
+        <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+        <label for="carousel-3" class="carousel-control next control-2">›</label>
+        <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+        <label for="carousel-1" class="carousel-control next control-3">›</label>
+        <ol class="carousel-indicators">
+            <li>
+                <label for="carousel-1" class="carousel-bullet">•</label>
+            </li>
+            <li>
+                <label for="carousel-2" class="carousel-bullet">•</label>
+            </li>
+            <li>
+                <label for="carousel-3" class="carousel-bullet">•</label>
+            </li>
+        </ol>
+    </div>
+</div>
+    </div>
+  </section>
+
+  <h1 class="h1"   style="color: white;">Liste suas séries</h1>
+
+
+    <div class="box">  
+             
     {{#each series}}
+
+
+
+
   <div class="box1">
-    <h4 style="color:white">{{title}}</h4>
+    {{!-- <h4 style="color:white">{{title}}</h4> --}}
       <a href="/serie/{{id}}">
-        <img style="width: 160px; heigth: 150px;" src="{{image}}" alt="">
+        <img style="width: 300px; heigth: 290px;" src="{{image}}" alt="">
       </a>
   </div>
 {{/each}}
+</div>  
 </div>
+</body>
+</html>
