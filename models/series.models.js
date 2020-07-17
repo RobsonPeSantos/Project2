@@ -7,6 +7,7 @@ const serieSchema = new Schema(
     cast: [], //elenco
     genre: String, // gênero
     image: String, //foto de capa
+    detailedImage: String,
     description: String, //descrição
     rate: {
       //avaliação

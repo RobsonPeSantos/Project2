@@ -8,7 +8,8 @@ const serie = [
     "title": "Dark", //título
     "cast": ["Louis Hofmann", "Oliver Masucci", "Jördis Triebel"], //elenco
     "genre": "Drama", // gênero
-    "image": "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQRl8-LJwo-lHCyJwOmcrYppDYYN3Kh9YOdrolA-G2a7JMyXMJTXWSecRFgVmr4nXSmAxYVYhJRBcGsSt065qFmdvl2zRB5PnJ4UJQAffj-K2U2-1OkhZsmOIGBnZ6NNg6-yfeKVvcB4lIgKVHZDA4pdoYyZ9w.jpg?r=393", //foto de capa
+    "image": "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQRl8-LJwo-lHCyJwOmcrYppDYYN3Kh9YOdrolA-G2a7JMyXMJTXWSecRFgVmr4nXSmAxYVYhJRBcGsSt065qFmdvl2zRB5PnJ4UJQAffj-K2U2-1OkhZsmOIGBnZ6NNg6-yfeKVvcB4lIgKVHZDA4pdoYyZ9w.jpg?r=393",
+    "detailedImage": "", //foto de capa       
     "description": "Quatro famílias iniciam uma desesperada busca por respostas quando uma criança desaparece e um complexo mistério envolvendo três gerações começa a se revelar.", //descrição
     "rate": 9
   },
