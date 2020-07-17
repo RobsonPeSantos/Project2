@@ -22,9 +22,9 @@ const userSchema = new Schema(
         type: String,
         required: [true, 'Password is required.']
       },
-      idSerie: {
-        type: String,
-      }
+      favoriteSeries: [{
+        type: Schema.Types.ObjectId, ref:"Serie"
+      }]//use populate method
     },
     {
       timestamps: true
