@@ -4,9 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Iron Series :heart:</title>
-    <link rel="stylesheet" href="/stylesheets/style.css" />
-    <link rel="stylesheet" href="stylesheets/form.css">
-    <link rel="stylesheet" href="/stylesheets/footer.css">
+    <link rel="stylesheet" href="/public/stylesheets/style.css" />
+    <link rel="stylesheet" href="/public/stylesheets/form.css">
+    <link rel="stylesheet" href="/public/stylesheets/footer.css">
   </head>
   <body>
     <section id="main-landing">
@@ -35,10 +35,12 @@
               <label for="psw"><strong style="color: white">Password</strong></label>
               <input type="password" placeholder="Enter Password" name="psw" required>
             </div>
-            <div id="menu-mob" class="menu-mobile">
-                <div class="menu-button bt1 unselectable"><a class="nav-location" href="/login">home</a></div>
-                <div class="menu-button bt2 unselectable"><a class="active" href="/signup">cadastre-se</a></div>
-                <div class="menu-button bt3 unselectable"><a class="active" href="/series">séries</a></div>
+            <button type="submit">Login</button>
+            <div class="container" style="background-color: #eee">
+              <label class="remember" style="padding-left: 15px">
+              <input style="color:black"type="checkbox"  checked="checked" name="remember"> Remember me
+              </label>
+              <span class="psw"><a href="#"> Forgot password?</a></span>
             </div>
           </form>
         </div>
