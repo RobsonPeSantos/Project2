@@ -9,7 +9,8 @@ const serie = [
     cast: ["Louis Hofmann", "Oliver Masucci", "Jördis Triebel"], //elenco
     genre: "Drama", // gênero
     image:
-      "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQRl8-LJwo-lHCyJwOmcrYppDYYN3Kh9YOdrolA-G2a7JMyXMJTXWSecRFgVmr4nXSmAxYVYhJRBcGsSt065qFmdvl2zRB5PnJ4UJQAffj-K2U2-1OkhZsmOIGBnZ6NNg6-yfeKVvcB4lIgKVHZDA4pdoYyZ9w.jpg?r=393", //foto de capa
+      "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQRl8-LJwo-lHCyJwOmcrYppDYYN3Kh9YOdrolA-G2a7JMyXMJTXWSecRFgVmr4nXSmAxYVYhJRBcGsSt065qFmdvl2zRB5PnJ4UJQAffj-K2U2-1OkhZsmOIGBnZ6NNg6-yfeKVvcB4lIgKVHZDA4pdoYyZ9w.jpg?r=393",
+    detailedImage: "", //foto de capa
     description:
       "Quatro famílias iniciam uma desesperada busca por respostas quando uma criança desaparece e um complexo mistério envolvendo três gerações começa a se revelar.", //descrição
     rate: 9,
@@ -309,7 +310,7 @@ const serie = [
     cast: ["Winona Ryder", "David Harbour", "Finn Wolfhard"], //elenco
     genre: "Ficção Científica", // gênero
     image:
-      "http://getwallpapers.com/wallpaper/full/9/a/a/1075693-netflix-wallpapers-1920x1080-1080p.jpg", //foto de capa
+      "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSQRzNZw0sdhfp2nmORP8obVtvyqoQr-xGumXiDcM5b6s_9D9WtWQojIUpORJIUvj-YsrVjKC_5PIuYMPSZIL_Ir1VUqKxeHnPr-YdCHSVAuagAOTRUFF9oyBGI-.jpg?r=b4e", //foto de capa
     description:
       "Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, forças sobrenaturais e uma menina.", //descrição
     rate: 8,

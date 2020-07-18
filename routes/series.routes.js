@@ -29,6 +29,7 @@ router.post("/create/series", async (req, res, next) => {
 
   try {
     const result = await Serie.create(data);
+    console.log(result)
     res.redirect("/series");
   } catch (err) {
     throw new Error(err);
@@ -58,12 +59,12 @@ router.post("/edit/serie/:id", async (req, res, next) => {
 
 router.get("/delete/serie/:id", (req, res) => res.render("deleteConfirme"));
 
-router.get("/delete/serie/:id", async (req, res, next) => {
+router.post("/delete/serie/:id", async (req, res, next) => {
   const { id } = req.params;
   try {
     const deletionResult = await Serie.deleteOne({ _id: id });
     console.log(deletionResult);
-    res.redirect("/series");
+    res.redirect("/series", {serie: deletionResult});
   } catch (err) {
     throw new Error(err);
   }
