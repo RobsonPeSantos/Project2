@@ -21,10 +21,7 @@ const userSchema = new Schema(
       passwordHash: {
         type: String,
         required: [true, 'Password is required.']
-      },
-      favoriteSeries: [{
-        type: Schema.Types.ObjectId, ref:"Serie"
-      }]//use populate method
+      }
     },
     {
       timestamps: true

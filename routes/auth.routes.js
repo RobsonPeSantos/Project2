@@ -3,10 +3,13 @@ const router = new Router();
 const bcryptjs = require("bcryptjs");
 const saltRounds = 10;
 const User = require("../models/user.model");
+const Serie = require("../models/series.models")
 const mongoose = require("mongoose");
 
+//levando para o hbs signup.hbs
 router.get("/signup", (req, res) => res.render("auth/signup"));
 
+//verifica se o user existe, e cadastrando novo user
 router.post("/signup", (req, res, next) => {
   const { username, email, password } = req.body;
 
@@ -19,13 +22,12 @@ router.post("/signup", (req, res, next) => {
   }
 
   const regex = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}/;
+  
   if (!regex.test(password)) {
-    res
-      .status(500)
-      .render("auth/signup", {
-        errorMessage:
-          "Password needs to have at least 6 chars and must contain at least one number, one lowercase and one uppercase letter.",
-      });
+    res.status(500).render("auth/signup", {
+      errorMessage:
+        "Password needs to have at least 6 chars and must contain at least one number, one lowercase and one uppercase letter.",
+    });
     return;
   }
 
@@ -57,8 +59,10 @@ router.post("/signup", (req, res, next) => {
     });
 });
 
+//Levando para o hbs login.hbs
 router.get("/login", (req, res) => res.render("auth/login"));
 
+//Buscando o user e vendo se ele existe
 router.post("/login", (req, res, next) => {
   const { email, password } = req.body;
 
@@ -93,20 +97,21 @@ router.post("/login", (req, res, next) => {
     .catch((error) => next(error));
 });
 
+//Logout
 router.post("/logout", (req, res) => {
-  req.session.destroy();
+   req.session.destroy();
   res.redirect("/");
 });
 
 // Protegendo rota privada
-router.get("/userProfile", (req, res) => {
-  console.log("your sess exp: ", req.session.cookie.expires);
+router.get("/userProfile", async (req, res) => {
+  console.log('your sess exp: ', req.session.cookie.expires);
   if (req.session.currentUser) {
-    return res.render("users/profile", {
-      userInSession: req.session.currentUser,
-    });
+    const series = req.session.currentUser._id;
+    const seriesUser = await Serie.find({'favoriteSeries': series}).populate('favoriteSeries').exec();
+    return res.render("users/profile", { userInSession: req.session.currentUser, serie: seriesUser});
   }
-    res.redirect("/login");
+   res.redirect("/login");
 });
 
 module.exports = router;

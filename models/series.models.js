@@ -7,7 +7,6 @@ const serieSchema = new Schema(
     cast: [], //elenco
     genre: String, // gênero
     image: String, //foto de capa
-    detailedImage: String,
     description: String, //descrição
     rate: {
       //avaliação
@@ -15,12 +14,13 @@ const serieSchema = new Schema(
       min: 0,
       max: 10,
     },
+    favoriteSeries: [{
+      type: Schema.Types.ObjectId, ref: "Serie"
+    }]//use populete
   },
   {
     timestamps: true,
   }
 );
 
-
 module.exports = model("Serie", serieSchema);
-
