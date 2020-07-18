@@ -9,6 +9,7 @@
     margin-top: 20px;
     background-color: rgb(24, 16, 16);
   }
+
   .logo {
     order: 1;
     display: flex;
@@ -26,8 +27,8 @@
     text-shadow: 1px 2px 3px rgb(0, 0, 0);
     text-shadow: 1px 2px 3px rgb(248, 237, 237);
     font-style: "M105.06233,14.2806261 L110.999156,30 C109.249227,29.7497422 107.500234,29.4366857 105.718437,29.1554972 L102.374168,20.4686475 L98.9371075,28.4375293 C97.2499766,28.1563408 95.5928391,28.061674 93.9057081,27.8432843 L99.9372012,14.0931671 L94.4680851,-5.68434189e-14 L99.5313525,-5.68434189e-14 L102.593495,7.87421502 L105.874965,-5.68434189e-14 L110.999156,-5.68434189e-14 L105.06233,14.2806261 Z M90.4686475,-5.68434189e-14 L85.8749649,-5.68434189e-14 L85.8749649,27.2499766 C87.3746368,27.3437061 88.9371075,27.4055675 90.4686475,27.5930265 L90.4686475,-5.68434189e-14 Z M81.9055207,26.93692 C77.7186241,26.6557316 73.5307901,26.4064111 69.250164,26.3117443 L69.250164,-5.68434189e-14 L73.9366389,-5.68434189e-14 L73.9366389,21.8745899 C76.6248008,21.9373887 79.3120255,22.1557784 81.9055207,22.2804387 L81.9055207,26.93692 Z M6";
-  
   }
+  
   .logo-image {
     order: 1;
     display: flex;
@@ -39,6 +40,7 @@
     width: 200px;
     background-color: #a0a0a0;
   }
+
   .dummyimage {
     order: 1;
     text-align: center;
@@ -46,6 +48,7 @@
     font-size: 20px;
     line-height: 20px;
   }
+
   .menu {
     order: 2;
     display: flex;
@@ -57,6 +60,7 @@
     height: 100%;
     color: #ffffff;
   }
+  
   .unselectable {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -66,6 +70,7 @@
     user-select: none;
     color: white;
   }
+  
   .menu-button {
     height: 100%;
     width: 100px;
@@ -75,13 +80,11 @@
     font-size: 16px;  
     line-height: 16px;
     text-decoration: none;
-    color: #ffffff;
     /* background-color: #1d1c1c; */
   }
   .menu-button:hover {
     cursor: pointer;
     background-color: #f10d3e;
-    color: #ffffff;
   }
   
   .btn1 {
@@ -199,5 +202,12 @@
 
   .nav-location{
     color: #e50914;
+    font-size: 15px;
+    text-decoration: none;
   }
   
+  .active{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+  }
