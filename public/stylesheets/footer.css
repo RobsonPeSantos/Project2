@@ -1,8 +1,15 @@
-.main-footer {
-    text-align: center;
-    padding: 10px;
-    color: #e50914;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    font-size: 20px;
-    text-decoration: none;
-  }
+/**************** FOOOTER ***************/
+
+footer {
+  background: #000307;
+  color: #868c96;
+}
+
+footer p {
+  padding: 100px 0;
+  text-align: center;
+}
+
+footer img {
+  width: 44px;
+}

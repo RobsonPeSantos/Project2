@@ -1,3 +1,4 @@
+
 require("dotenv").config();
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
@@ -10,7 +11,7 @@ const path = require("path");
 const app = express();
 
 // require database configuration
-require('./config/configdb');
+require("./config/configdb");
 
 // Middleware Setup
 app.use(bodyParser.json());
@@ -35,4 +36,3 @@ app.use("/", series);
 app.use("/", auth);
 
 module.exports = app;
-
