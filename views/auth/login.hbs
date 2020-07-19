@@ -4,37 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel=""
   <link rel="stylesheet" href="/stylesheets/footer.css">
   <link rel="stylesheet" href="stylesheets/navbar.css">
-  <link rel="stylesheet" href="stylesheets/carrossel.css">
+  <link rel="stylesheet" href="stylesheets/carousel.css">
   <link rel="stylesheet" href="stylesheets/carousel-banner.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap" rel="stylesheet">
   
   <title>Document</title>
   </head>
+  <script src="/navbar.js"></script>
+<body>
   
-  <body>
-    <div class="navbar">
-        <div class="logo">
-            <a href="/login"><h1>IRON SERIES</h1></a>
-            <link rel="stylesheet" href="/auth/login.hbs">
-        </div>
-
-        <div class="menu">
-            <div class="menu-button bt1 unselectable"><a class="nav-location" href="/login">HOME</a></div>
-            <div class="menu-button bt2 unselectable"><a class="active" href="/signup">CADASTRE-SE</a></div>
-            <div class="menu-button bt3 unselectable"><a class="active"href="/series">SÉRIES</a></div>
-        </div>
+  
+        <div class="navbar">
+           <div class="logo">
         
-        <div class="menu-mobile-btn">
+          <h1 >IRONSERIES</h1>
+          <link rel="stylesheet" href="/auth/login.hbs">
+                
+      </div>
+            <div class="menu">
+                <div class="menu-button bt1 unselectable"><a class="nav-location" href="/login">HOME</a></div>
+                <div class="menu-button bt2 unselectable"><a class="active" href="/signup">CADASTRE-SE</a></div>
+                <div class="menu-button bt3 unselectable"><a class="active"href="/series">SÉRIES</a></div>
+            </div>
+            <div class="menu-mobile-btn">
                 <div class="hamburger">
                     <div class="hamb-ico"><p onclick="myFunction()" class="dummyicon unselectable">X</p></div>
                 </div>
             </div>
             <div id="menu-mob" class="menu-mobile">
-                <div class="menu-button bt1 unselectable"><a class="nav-location" href="/login">home</a></div>
-                <div class="menu-button bt2 unselectable"><a class="active" href="/signup">cadastre-se</a></div>
-                <div class="menu-button bt3 unselectable"><a class="active" href="/series">séries</a></div>
+                <div class="menu-button2 bt1 unselectable"><p>HOME</p></div>
+                <div class="menu-button2 bt2 unselectable"><p>SERIES</p></div>
+                <div class="menu-button2 bt3 unselectable"><p>CADASTRE-SE</p></div>
             </div>
         
     </div>
@@ -50,10 +53,10 @@
                     <div class="formcontainer">
                         <hr />
                         <div class="container">
-                            <label for="uname"><strong style="color: white;">Email</strong></label>
+                            <label class="form-color" for="username"><strong>Email</strong></label>
                             <input type="text" placeholder="Enter Username" name="email" required>
                             
-                            <label for="psw"><strong style="color: white">Password</strong></label>
+                            <label class="form-color" for="psw"><strong>Password</strong></label>
                             <input type="password" placeholder="Enter Password" name="password" required>
                         </div>
                         <button type="submit">Login</button>
