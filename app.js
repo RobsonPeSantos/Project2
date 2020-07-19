@@ -13,6 +13,7 @@ const app = express();
 // require database configuration
 require("./config/configdb");
 
+require('./config/session')(app);
 // Middleware Setup
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
