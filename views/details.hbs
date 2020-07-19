@@ -1,14 +1,102 @@
-<link rel="stylesheet" href="/stylesheets/style.css" />
-<div class="details">
-    {{#with serie}}
-    <div>
-        <img src="{{image}}" alt="">
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/stylesheets/details.css">
+      <link rel="stylesheet" href="/stylesheets/navbar.css">
+      
+     
+ </head>
+ <body>
+     <div class="navbar">
+           <div class="logo">
+        
+          <h1 >IRONSERIES</h1>
+          <link rel="stylesheet" href="/auth/login.hbs">
+                
+      </div>
+            <div class="menu">
+                <div class="menu-button bt1 unselectable"><p>Home</p></div>
+                <div class="menu-button bt2 unselectable"><p>Series</p></div>
+                <div class="menu-button bt3 unselectable"><p>Cadastre-se</p></div>
+                <div class="socialIcons"></div>
+               
+            </div>
+            <div class="menu-mobile-btn">
+                <div class="hamburger">
+                    <div class="hamb-ico"><p onclick="myFunction()" class="dummyicon unselectable">X</p></div>
+                </div>
+            </div>
+            <div id="menu-mob" class="menu-mobile">
+                <div class="menu-button2 bt1 unselectable"><p>Home</p></div>
+                <div class="menu-button2 bt2 unselectable"><p>Series</p></div>
+                <div class="menu-button2 bt3 unselectable"><p>Cadastre-se</p></div>
+                
+            </div>
+        
     </div>
-    <h4>Title: {{title}}</h4>
-    <p class="p">Cast : {{cast}}</p>
-    <p class="pg"> Genre : {{genre}}</p>
-    <span>Description : {{description}}</span>
-    <p class="rate"><strong>Rate : {{rate}}</strong></p>
-    <a href="/delete/serie/{{id}}">Deletear serie</a>
+
+      {{#with serie}}
+     <section class="section">
+         
+            <div class="image-box
+            ">
+             <img style="width: 500px;"  src="{{image2}}
+             " alt="">
+            </div>
+            <div class="box">
+                <div class="image2">
+             <img style="width: 400px;"  src="{{image}}
+             " alt="">
+            </div>
+               <h4>{{title}}</h4>
+             <p><strong style="color: yellow;" >Cast: </strong>   {{cast}}</p>
+             <p><strong style="color: yellow;" >Genre: </strong> {{genre}}</p>
+             <p><strong style="color: yellow;" >Description: </strong> {{description}}</p>
+             <p><strong style="color: yellow;">Rate: {{rate}}</strong></p>
+             
+             </div>
+           
+              
+         
+            
+    </section>
+       
+ {{/with}}
+
+
+ </body>
+ </html>
+    
+
+
+
+
+
+
+
+
+
+   
+{{!-- <div class="details">
+    {{#with serie}}
+    <div class="image">
+        <img style="width: 400px;" src="{{image2}}" alt="">
+    </div>
+    <div class="text-area">
+       
+        <div class="title">
+      <h4>Title: {{title}}</h4>
+        </div>
+    <div class="text-area1">
+    <p class="p"> <strong style="color: yellow;" >Cast: </strong>   {{cast}}</p>
+    <p class="pg"> <strong style="color: yellow;" >Genre: </strong> {{genre}}</p>
+    <span class="description"> <strong style="color: yellow;">Description: </strong>{{description}}</span>
+    <p class="rate"><strong style="color: yellow;">Rate : {{rate}}</strong></p>
+    </div>
+    </div>
+    
     {{/with}}
-</div>
+    
+</div> --}}
