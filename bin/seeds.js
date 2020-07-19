@@ -10,6 +10,7 @@ const serie = [
     genre: "Drama", // gênero
     image:
       "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQRl8-LJwo-lHCyJwOmcrYppDYYN3Kh9YOdrolA-G2a7JMyXMJTXWSecRFgVmr4nXSmAxYVYhJRBcGsSt065qFmdvl2zRB5PnJ4UJQAffj-K2U2-1OkhZsmOIGBnZ6NNg6-yfeKVvcB4lIgKVHZDA4pdoYyZ9w.jpg?r=393", //foto de capa
+
     description:
       "Quatro famílias iniciam uma desesperada busca por respostas quando uma criança desaparece e um complexo mistério envolvendo três gerações começa a se revelar.", //descrição
     rate: 9,
@@ -20,6 +21,7 @@ const serie = [
     genre: "Drama & Crime", // gênero
     image:
       "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYy96MjTWVT0-cxAxfRV0NkX9zMggl7XZgc1vEcgfIX3muYjrZDIAQDr-EZKmovYiWx8rsyUZyccBm0wLukUK2vF9DA.jpg?r=111", //foto de capa
+
     description:
       "Durante sua residência, Meredith Grey vive paixões profissionais e pessoais com seus colegas médicos em um hospital de Seattle.", //descrição
     rate: 8,
@@ -30,6 +32,7 @@ const serie = [
     genre: "Drama & Crime", // gênero
     image:
       "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABa8bw6eYIDHUgkPrsCtlG27hLDHFoyvqJXDCz-GGU-GEgrs5NDxuIdkzdJhBwZzuTxDwxn2odca7geDdXS-VGh2u51U.jpg?r=2c2", //foto de capa
+
     description:
       "O agente do FBI Kurt Weller segue pistas escondidas nas tatuagens de uma mulher amnésica para desvendar uma conspiração.", //descrição
     rate: 7,
@@ -40,6 +43,7 @@ const serie = [
     genre: "Drama & Crime", // gênero
     image:
       "https://occ-0-1306-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSHGF6UHkwPVbGFBIyFTQNZYieIOhv6PeNmg0-B0sCvVShBVPghbTVU_GvSYgYOwUKnXZKFYZVxhkSqNIDYDax_2wPw65TiBfwprUs0Q8hfZZnb7b9y99jXZju_C.jpg?r=66b", //foto de capa
+
     description:
       "Oito ladrões se trancam com reféns na Casa da Moeda da Espanha. Seu líder manipula a polícia para realizar um plano. Será o maior roubo da história, ou uma missão em vão?.", //descrição
     rate: 8,

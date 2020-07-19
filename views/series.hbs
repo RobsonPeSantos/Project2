@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="/stylesheets/style.css">
   <link rel="stylesheet" href="/stylesheets/footer.css">
   <link rel="stylesheet" href="stylesheets/navbar.css">
-  <link rel="stylesheet" href="stylesheets/carrossel.css">
+  <link rel="stylesheet" href="stylesheets/carousel.css">
   <link rel="stylesheet" href="stylesheets/carousel-banner.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap" rel="stylesheet">
   
@@ -35,8 +35,9 @@
             <div class="menu">
                 <div class="menu-button bt1 unselectable"><p>Home</p></div>
                 <div class="menu-button bt2 unselectable"><p>Series</p></div>
-                <div class="menu-button bt3 unselectable"><p>Blog</p></div>
-                <div class="menu-button bt4 unselectable"><p>Login</p></div>
+                <div class="menu-button bt3 unselectable"><p>Cadastre-se</p></div>
+                <div class="socialIcons"></div>
+               
             </div>
             <div class="menu-mobile-btn">
                 <div class="hamburger">
@@ -46,8 +47,8 @@
             <div id="menu-mob" class="menu-mobile">
                 <div class="menu-button2 bt1 unselectable"><p>Home</p></div>
                 <div class="menu-button2 bt2 unselectable"><p>Series</p></div>
-                <div class="menu-button2 bt3 unselectable"><p>Blog</p></div>
-                <div class="menu-button2 bt4 unselectable"><p>Login</p></div>
+                <div class="menu-button2 bt3 unselectable"><p>Cadastre-se</p></div>
+                
             </div>
         
     </div>
@@ -103,17 +104,13 @@
   <h1 class="h1"   style="color: white;">Liste suas séries</h1>
 
 
-    <div class="box">  
-             
+    <div class="box">              
     {{#each series}}
-
-
-
-
+    
   <div class="box1">
     {{!-- <h4 style="color:white">{{title}}</h4> --}}
       <a href="/serie/{{id}}">
-        <img style="width: 300px; heigth: 290px;" src="{{image}}" alt="">
+        <img style="width: 400px; heigth: 290px;" src="{{image}}" alt="">
       </a>
   </div>
 {{/each}}
