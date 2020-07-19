@@ -60,10 +60,10 @@ router.post("/signup", (req, res, next) => {
 });
 
 //Levando para o hbs login.hbs
-router.get("/login", (req, res) => res.render("auth/login"));
+router.get("/", (req, res) => res.render("auth/login"));
 
 //Buscando o user e vendo se ele existe
-router.post("/login", (req, res, next) => {
+router.post("/", (req, res, next) => {
   const { email, password } = req.body;
 
   if (email === "" || password === "") {
@@ -111,7 +111,7 @@ router.get("/userProfile", async (req, res) => {
     const seriesUser = await Serie.find({'favoriteSeries': series}).populate('favoriteSeries').exec();
     return res.render("users/profile", { userInSession: req.session.currentUser, serie: seriesUser});
   }
-   res.redirect("/login");
+   res.redirect("/");
 });
 
 module.exports = router;

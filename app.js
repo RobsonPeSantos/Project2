@@ -28,11 +28,11 @@ app.use(favicon(path.join(__dirname, "public", "images", "favicon.ico")));
 // default value for title local
 app.locals.title = "Projeto2";
 
-const index = require("./routes/index.routes");
+
 const series = require("./routes/series.routes");
 const auth = require("./routes/auth.routes");
 
-app.use("/", index);
+
 app.use("/", series);
 app.use("/", auth);
 
