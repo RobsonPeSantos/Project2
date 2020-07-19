@@ -4,11 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/stylesheets/style.css">
+  {{!-- <link rel="stylesheet" href="/stylesheets/style.css"> --}}
   <link rel="stylesheet" href="/stylesheets/footer.css">
   <link rel="stylesheet" href="stylesheets/navbar.css">
   <link rel="stylesheet" href="stylesheets/carousel.css">
   <link rel="stylesheet" href="stylesheets/carousel-banner.css">
+  <link rel="stylesheet" href="stylesheets/series.css">
+
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap" rel="stylesheet">
   
   <title>Document</title>
@@ -25,7 +27,7 @@
 <body>
   
   
-        <div class="navbar">
+    <div class="navbar">
            <div class="logo">
         
           <h1 >IRONSERIES</h1>
@@ -103,20 +105,80 @@
 
   <h1 class="h1"   style="color: white;">Liste suas séries</h1>
 
+{{!************************* Carousel***********************}}
 
-    <div class="box">              
+
+<div class="box">              
     {{#each series}}
     
   <div class="box1">
-    {{!-- <h4 style="color:white">{{title}}</h4> --}}
+   
       <a href="/serie/{{id}}">
         <img style="width: 400px; heigth: 290px;" src="{{image}}" alt="">
       </a>
   </div>
 {{/each}}
 </div>  
-</div>
+</div> 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{!-- 
+<div class="box">              
+    {{#each series}}
+    
+    <div class="box img">
+     <img style="width: 400px; heigth: 290px;" src="{{image}}" alt="">
+      
+             <div class="text-area">
+                <p class="rate"><strong>Rate : {{rate}}</strong></p>
+                <p class="genre"> <strong>Genre:</strong> {{genre}}</p>
+                <p class="description"><strong>Description:</strong> {{description}}</p>
+               
+                           
+               
+             </div>
+{{/each}}
+        
+    </div>
+</div>  
+  --}}
+
+
+
+
+
+
+{{!-- <div class="wrapper">
+    <div class="single-team">
+        <div class="box img">
+           
+            <div class="box-img-text">
+                
+                <div class="text-area">
+                    <h2>Title: {{title}}</h2>
+                    <p class="pg"> Genre: {{genre}}</p>
+                    <p class="rate"><strong>Rate : {{rate}}</strong></p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div> --}}
 
 
 

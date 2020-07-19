@@ -7,7 +7,9 @@ const serieSchema = new Schema(
     cast: [], //elenco
     genre: String, // gênero
     image: String, //foto de capa
+    image2: String,
     description: String, //descrição
+    redesSociais: String,
     rate: {
       //avaliação
       type: Number,
@@ -20,6 +22,4 @@ const serieSchema = new Schema(
   }
 );
 
-
 module.exports = model("Serie", serieSchema);
-

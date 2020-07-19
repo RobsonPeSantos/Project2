@@ -25,3 +25,24 @@
   padding: 20px;
   align-items: initial;
 }
+
+.box1 img {
+  max-width: 400px;
+}
+
+.box1 {
+  overflow: hidden;
+}
+
+.box1 img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.box1:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}

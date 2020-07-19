@@ -29,7 +29,7 @@ body {
 }
 
 .carousel-item img {
-  display: block;
+  display: flex;
   height: auto;
   max-width: 100%;
 }
