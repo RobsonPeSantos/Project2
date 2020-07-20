@@ -1,4 +1,4 @@
-/* GLOBAL STYLES */
+GLOBAL STYLES
 body {
   margin: 0;
   font-family: sans-serif;
@@ -8,10 +8,12 @@ body {
 img {
   display: block;
 }
+
 h1,
 h2,
 p {
   margin: 0;
+  color: white;
 }
 
 a {
@@ -34,6 +36,32 @@ a {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 800px;
+}
+
+#main-landing-message {
+  position: relative;
+  padding: 18em 0;
+}
+#main-landing-message h1,
+h2 {
+  color: #fff;
+  text-align: center;
+  text-size-adjust: 100px;
+}
+#main-landing-message > h1 {
+  font-size: 4em;
+  margin-bottom: 15px;
+}
+#main-landing-message > h2 {
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+#main-landing-message > a {
+  display: inline-block;
+  font-size: 15px;
+  padding: 12px 26px;
+  letter-spacing: 1px;
 }
 
 /********************************Series Style**********************/
@@ -51,9 +79,11 @@ a {
   height: 140px;
   margin-left: 5px;
 }
+
 .box1 h4 {
   padding: 3px;
 }
+
 .box1 img {
   padding: 15px;
 }
@@ -65,6 +95,7 @@ a {
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .details img {
   margin-top: 50px;
   float: right;
@@ -77,6 +108,7 @@ a {
   font-size: 30px;
   text-decoration: underline;
 }
+
 .p {
   margin-bottom: 30px;
 }
@@ -89,55 +121,22 @@ a {
   margin-top: 30px;
 }
 
-/* *******************************Series Style********************* */
-/* .box {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+.form-color{
+  color: #fff;
+}
+
+.main-div {
+  position: relative;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: stretch;
-}
-.bo1 {
-  width: 160px;
-  height: 140px;
-  margin-left: 5px;
-}
-.box1 h4 {
-  padding: 3px;
-}
-.box1 img {
-  padding: 15px;
-} */
+  justify-content: center;
 
-/********************************Details Style*********************************/
-/* .details {
-  background-color: #000000;
-  height: 650px;
-  color: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-.details img {
-  margin-top: 50px;
-  float: right;
-  width: 700px;
-  border: 2px solid red;
 }
 
-.details h4 {
-  width: 300px;
-  font-size: 30px;
-  text-decoration: underline;
+#black-ov {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, #000000de, #00000029);
+  left: 0;
+  top: 0;
 }
-.p {
-  margin-bottom: 30px;
-}
-
-.pg {
-  margin-bottom: 30px;
-}
-
-.rate {
-  margin-top: 30px;
-} */

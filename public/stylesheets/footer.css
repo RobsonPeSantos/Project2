@@ -1,15 +1,11 @@
-/**************** FOOOTER ***************/
-
-footer {
-  background: #000307;
-  color: #868c96;
-}
-
-footer p {
-  padding: 100px 0;
-  text-align: center;
-}
-
-footer img {
-  width: 44px;
+#main-footer {
+  color: white;
+  text-decoration: none;
+  flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+  height: 100px;
+  width: 100px;
 }

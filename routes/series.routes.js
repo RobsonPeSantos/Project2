@@ -2,6 +2,7 @@ const express = require("express");
 const Serie = require("../models/series.models");
 const router = express.Router();
 
+///Buscar todas as series
 router.get("/series", async (req, res) => {
   try {
     const localData = await Serie.find();
@@ -11,6 +12,7 @@ router.get("/series", async (req, res) => {
   }
 });
 
+//Busca somente a serie declarada no parametro :serieid
 router.get("/serie/:serieId", async (req, res) => {
   try {
     const serieId = await Serie.findById(req.params.serieId);
@@ -20,22 +22,26 @@ router.get("/serie/:serieId", async (req, res) => {
   }
 });
 
-router.get('/create/series', (req, res) => {
-  res.render('create-form');
+//Renderiza o Form de criação se series
+router.get("/create/serie", (req, res) => {
+  res.render("create-form");
 });
 
-router.post("/create/series", async (req, res, next) => {
+//Adiciona uma nova serie
+router.post("/create/serie", async (req, res, next) => {
   const data = req.body;
+  data.favoriteSeries = req.session.currentUser;
 
   try {
     const result = await Serie.create(data);
-    console.log(result)
-    res.redirect("/series");
+    console.log(result);
+    res.redirect("/UserProfile");
   } catch (err) {
     throw new Error(err);
   }
 });
 
+//Renderiza uma serie para editação
 router.get("/edit/serie/:id", async (req, res, next) => {
   const { id } = req.params;
   try {
@@ -46,25 +52,24 @@ router.get("/edit/serie/:id", async (req, res, next) => {
   }
 });
 
+//edita a serie com o :id no parametro a URL
 router.post("/edit/serie/:id", async (req, res, next) => {
   const { id } = req.params;
   const data = req.body;
   try {
     const updateResult = await Serie.updateOne({ _id: id }, { $set: data });
-    res.redirect("/series", { updateResult });
+    res.redirect("/series");
   } catch (err) {
     throw new Error(err);
   }
 });
 
-router.get("/delete/serie/:id", (req, res) => res.render("deleteConfirme"));
-
-router.post("/delete/serie/:id", async (req, res, next) => {
-  const { id } = req.params;
+//Deleta uma serie
+router.get("/serie/delete/:id", async (req, res) => {
   try {
-    const deletionResult = await Serie.deleteOne({ _id: id });
+    const deletionResult = await Serie.deleteOne({ _id: req.params.id });
     console.log(deletionResult);
-    res.redirect("/series", {serie: deletionResult});
+    res.redirect("/UserProfile");
   } catch (err) {
     throw new Error(err);
   }
