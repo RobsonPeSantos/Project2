@@ -1,86 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/stylesheets/style.css">
-  <link rel="stylesheet" href="/stylesheets/footer.css">
-  <link rel="stylesheet" href="stylesheets/navbar.css">
-  <link rel="stylesheet" href="stylesheets/carousel.css">
-  <link rel="stylesheet" href="stylesheets/carousel-banner.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap" rel="stylesheet">
-  
-  <title>Document</title>
-  </head>
-  <script src="/navbar.js"></script>
-<body>
-  
-  
-        <div class="navbar">
-           <div class="logo">
-        
-          <h1 >IRONSERIES</h1>
-          <link rel="stylesheet" href="/auth/login.hbs">
-                
-      </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheets/login-signup.css">
+        <link rel="stylesheet" href="stylesheets/navbar.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap" rel="stylesheet">
+        <title>Home</title>
+    </head>
+    <script src="/navbar.js"></script>
+    
+    <body>
+        <div class="logo">
+            <h1 class="logo">IRONSERIES</h1>
+            <link rel="stylesheet" href="/auth/login.hbs">
+            
             <div class="menu">
                 <div class="menu-button bt1 unselectable"><a class="active" href="/login">HOME</a></div>
                 <div class="menu-button bt2 unselectable"><a class="nav-location" href="/signup">CADASTRE-SE</a></div>
                 <div class="menu-button bt3 unselectable"><a class="active"href="/series">SÉRIES</a></div>
             </div>
-            <div class="menu-mobile-btn">
-                <div class="hamburger">
-                    <div class="hamb-ico"><p onclick="myFunction()" class="dummyicon unselectable">X</p></div>
-                </div>
-            </div>
+          
             <div id="menu-mob" class="menu-mobile">
                 <div class="menu-button bt1 unselectable"><a class="active" href="/login">HOME</a></div>
                 <div class="menu-button bt2 unselectable"><a class="nav-location" href="/signup">CADASTRE-SE</a></div>
                 <div class="menu-button bt3 unselectable"><a class="active"href="/series">SÉRIES</a></div>
             </div>
-        
-    </div>
-    <section id="main-landing">
-        <div id="black-ov"></div>
-
-
-        <div id="main-landing-message">
-            <h1>Organize suas séries</h1>
-            <h2>FAÇA SUA LISTA OU SIGA ALGUÉM</h2>
-            <div>
-                <form action="/signup" method="POST">
-                    <h1>Faça seu cadastro abaixo</h1>
-                    <div class="formcontainer">
-                        <hr />
-                        <div class="container">
-                            <label class="form-color" for="uname"><strong>Username</strong></label>
-                            <input type="text" placeholder="Enter Username" name="username" required>
-
-                             <label class="form-color" for="uname"><strong>Email</strong></label>
-                            <input type="text" placeholder="Enter email" name="email" required>
-
-                            <label class="form-color" for="psw"><strong>Password</strong></label>
-                            <input type="password" placeholder="Enter Password" name="password" required>
-                        </div>
-                        <button type="submit">Sing in</button>
-                        <div class="container" style="background-color: #eee">
-                            <label class="remember" style="padding-left: 15px">
-                                <input style="color:black" type="checkbox" checked="checked" name="remember"> Remember
-                                me
-                            </label>
-                            <span class="psw"><a href="#"> Forgot password?</a></span>
-                        </div>
-                </form>
-            </div>
         </div>
+    
+    <div id="main-landing">
+        <div id="black-ov"></div>
+        
+        <div id="main-landing-message">
+            <h1>Crie seu cadastro abaixo</h1>
+        </div>
+        
+        <div class="main-div">
+            <form action="/login" method="POST">
+            <h1>e prepare sua pipoca!</h1>
+            <div class="formcontainer">
+                <hr/>
+                <div class="container">
+                    <label class="form-color" for="uname"><strong>Username</strong></label>
+                    <input type="text" placeholder="Enter Username" name="username" required>
 
-    </section>
-    <div class="main-footer">
-        <footer class="footer">
-            <p>Developed by Robson Santos, Erick e Hebert at Iron Hack</p>
-            <a href="https://github.com/RobsonPeSantos/Project2">Github</a>
-        </footer>
-    </div>  
+                    <label class="form-color" for="uname"><strong>Email</strong></label>
+                    <input type="text" placeholder="Enter email" name="email" required>
+
+                    <label class="form-color" for="psw"><strong>Password</strong></label>
+                    <input type="password" placeholder="Enter Password" name="password" required>
+                </div>
+                
+                <button type="submit">Sign in</button>
+                <div class="container" style="background-color: #eee">
+                    <label class="remember" style="padding-left: 15px">
+                    <input style="color:black" type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                    
+                    <span class="psw"><a href="#"> Forgot password?</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+<footer id="main-footer">
+        <p>Developed by Robson Santos, Erick e Hebert at Iron Hack</p>
+        <a href="https://github.com/RobsonPeSantos/Project2">Github link</a>
+</footer>
+       
 </body>
-
 </html>

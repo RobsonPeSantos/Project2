@@ -1,14 +1,59 @@
-<link rel="stylesheet" href="/stylesheets/style.css" />
-<div class="details">
-    {{#with serie}}
-    <div>
-        <img src="{{image}}" alt="">
-    </div>
-    <h4>Title: {{title}}</h4>
-    <p class="p">Cast : {{cast}}</p>
-    <p class="pg"> Genre : {{genre}}</p>
-    <span>Description : {{description}}</span>
-    <p class="rate"><strong>Rate : {{rate}}</strong></p>
-    <a href="/delete/serie/{{id}}">Deletar serie</a>
-    {{/with}}
-</div>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/stylesheets/details.css">
+      <link rel="stylesheet" href="/stylesheets/navbar.css">
+      
+     
+ </head>
+ <script src="/navbar.js"></script>
+    
+    <body>
+      
+            <div class="logo" style="background-color: black;">
+                <h1 class="logo">IRONSERIES</h1>
+                <link rel="stylesheet" href="/auth/login.hbs">
+            <div class="menu">
+                <div class="menu-button bt1 unselectable"><a class="nav-location" href="/login">HOME</a></div>
+                <div class="menu-button bt2 unselectable"><a class="active" href="/signup">CADASTRE-SE</a></div>
+                <div class="menu-button bt3 unselectable"><a class="active"href="/series">SÉRIES</a></div>
+            </div>
+        
+            <div id="menu-mob" class="menu-mobile">
+                <div class="menu-button bt1 unselectable"><a class="nav-location" href="/login">HOME</a></div>
+                <div class="menu-button bt2 unselectable"><a class="active" href="/signup">CADASTRE-SE</a></div>
+                <div class="menu-button bt3 unselectable"><a class="active"href="/series">SÉRIES</a></div>
+            </div>
+        </div>
+
+      {{#with serie}}
+     <section class="section">
+         
+            <div class="image-box">
+                <img style="width: 500px;"  src="{{image2}}" alt="">
+            </div>
+            <div class="box">
+                <div class="image2">
+             <img style="width: 400px;"  src="{{image}}
+             " alt="">
+            </div>
+               <h4>{{title}}</h4>
+             <p><strong style="color: yellow;" >Cast: </strong>   {{cast}}</p>
+             <p><strong style="color: yellow;" >Genre: </strong> {{genre}}</p>
+             <p><strong style="color: yellow;" >Description: </strong> {{description}}</p>
+             <p><strong style="color: yellow;">Rate: {{rate}}</strong></p>
+             
+             </div>
+           
+              
+         
+            
+    </section>
+       
+ {{/with}}
+
+
+ </body>
+ </html>
