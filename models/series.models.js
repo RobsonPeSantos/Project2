@@ -15,9 +15,12 @@ const serieSchema = new Schema(
       min: 0,
       max: 10,
     },
-    favoriteSeries: [{
-      type: Schema.Types.ObjectId, ref: "Serie"
-    }]//use populete
+    favoriteSeries: [
+      {
+        type: Schema.Types.ObjectId,
+        ref: "Serie",
+      },
+    ], //use populete
   },
   {
     timestamps: true,
