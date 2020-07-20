@@ -3,12 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="stylesheets/style.css">
-        <link rel="stylesheet" href="stylesheets/form.css">
-        <link rel="stylesheet" href="stylesheets/footer.css">
+        <link rel="stylesheet" href="stylesheets/login-signup.css">
         <link rel="stylesheet" href="stylesheets/navbar.css">
-        <link rel="stylesheet" href="stylesheets/carousel.css">
-        <link rel="stylesheet" href="stylesheets/carousel-banner.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap" rel="stylesheet">
         <title>Home</title>
     </head>
@@ -24,11 +20,7 @@
                 <div class="menu-button bt2 unselectable"><a class="active" href="/signup">CADASTRE-SE</a></div>
                 <div class="menu-button bt3 unselectable"><a class="active"href="/series">SÉRIES</a></div>
             </div>
-            <div class="menu-mobile-btn">
-                <div class="hamburger">
-                    <div class="hamb-ico"><p onclick="myFunction()" class="dummyicon unselectable">X</p></div>
-                </div>
-            </div>
+        
             <div id="menu-mob" class="menu-mobile">
                 <div class="menu-button bt1 unselectable"><a class="nav-location" href="/login">HOME</a></div>
                 <div class="menu-button bt2 unselectable"><a class="active" href="/signup">CADASTRE-SE</a></div>
@@ -36,8 +28,8 @@
             </div>
         </div>
     
-    <section id="main-landing">
-        <div id="black-ov">
+    <div id="main-landing">
+        <div id="black-ov"></div>
         
         <div id="main-landing-message">
             <h1>Organize suas séries</h1>
@@ -46,7 +38,7 @@
         
         <div class="main-div">
             <form action="/login" method="POST">
-            <h1>Log-in</h1>
+            <h1>Login</h1>
             <div class="formcontainer">
                 <hr/>
                 <div class="container">
@@ -55,7 +47,7 @@
                     <label class="form-color" for="psw"><strong>Password</strong></label>
                     <input type="password" placeholder="Enter Password" name="password" required>
                 </div>
-                <button type="submit">Login</button>
+                <button type="submit">GO!</button>
                 <div class="container" style="background-color: #eee">
                     <label class="remember" style="padding-left: 15px">
                         <input style="color:black" type="checkbox" checked="checked" name="remember"> Remember me
@@ -65,15 +57,11 @@
             </form>
         </div>
     </div>
-    </div>
-</section>
 
-<div>
 
-</div>
 <footer id="main-footer">
-    <p>Developed by Robson Santos, Erick e Hebert at Iron Hack</p>
-    <a href="https://github.com/RobsonPeSantos/Project2">Github link</a>
+        <p>Developed by Robson Santos, Erick e Hebert at Iron Hack</p>
+        <a href="https://github.com/RobsonPeSantos/Project2">Github link</a>
 </footer>
        
 </body>

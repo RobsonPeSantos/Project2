@@ -1,0 +1,15 @@
+.serie-details{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+}
+
+span, p , h1 {
+    margin-top: 5px;
+   text-decoration: none;
+   color: white;
+}
+

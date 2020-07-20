@@ -1,63 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/stylesheets/style.css">
-        <link rel="stylesheet" href="/stylesheets/create-form.css">
-        <link rel="stylesheet" href="/stylesheets/form.css">
-        <link rel="stylesheet" href="/stylesheets/footer.css">
-        <link rel="stylesheet" href="stylesheets/navbar.css">
-        <link rel="stylesheet" href="stylesheets/carousel.css">
-        <link rel="stylesheet" href="stylesheets/carousel-banner.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap" rel="stylesheet">
-        <title>Home</title>
-    </head>
-    <script src="/navbar.js"></script>
+
     
-    <body>
-        <div class="logo">
-                <h1 >IRONSERIES</h1>
-                <link rel="stylesheet" href="/auth/login.hbs">
-            <div class="menu">
-                <div class="menu-button bt1 unselectable"><a class="nav-location" href="/login">HOME</a></div>
-                <div class="menu-button bt2 unselectable"><a class="active" href="/signup">CADASTRE-SE</a></div>
-                <div class="menu-button bt3 unselectable"><a class="active"href="/series">SÉRIES</a></div>
-            </div>
-            <div class="menu-mobile-btn">
-                <div class="hamburger">
-                    <div class="hamb-ico"><p onclick="myFunction()" class="dummyicon unselectable">X</p></div>
-                </div>
-            </div>
-            <div id="menu-mob" class="menu-mobile">
-                <div class="menu-button2 bt1 unselectable"><p>HOME</p></div>
-                <div class="menu-button2 bt2 unselectable"><p>SERIES</p></div>
-                <div class="menu-button2 bt3 unselectable"><p>CADASTRE-SE</p></div>
-            </div>
-        </div>
+ 
+        
+            <form action="/login" method="POST">
+            <div class="formcontainer">
+                <hr/>
+                <div class="container">
+                    <form action="" method="post">
+                        <h1>INCLUA SUA SÉRIE</h1>
+                        <label for=""><strong style="color: white;">Title</strong></label>
+                        <input type="text" name="title" id="title" placeholder="">
 
-<div class="create">
-    <form action="" method="post">
-        <h1>Crie a sua propria serie!!!</h1>
+                        <label for=""><strong style="color: white;">Cast</strong></label>
+                        <input type="text" name="cast" id="cast">
 
-        <label for=""><strong>Title</strong></label>
-        <input type="text" name="title" id="title" placeholder="">
+                        <label for=""><strong style="color: white;">Genre</strong></label>
+                        <input type="text" name="genre" id="genre">
 
-        <label for=""><strong>Cast</strong></label>
-        <input type="text" name="cast" id="cast">
+                        <label for=""><strong style="color: white;">image link</strong></label>
+                        <input type="text" name="image" id="image">
 
-        <label for=""><strong>Genre</strong></label>
-        <input type="text" name="genre" id="genre">
+                        <label for=""><strong style="color: white;">Description</strong></label>
+                        <input type="text" name="description" id="description">
 
-        <label for=""><strong>Url image</strong></label>
-        <input type="text" name="image" id="image">
+                        <label for=""><strong style="color: white;">Rate</strong></label>
+                        <input type="number" name="rate" id="rate">
 
-        <label for=""><strong>Description</strong></label>
-        <input type="text" name="description" id="description">
-
-        <label for=""><strong>Rate</strong></label>
-        <input type="number" name="rate" id="rate">
-
-        <input class="button" type="submit" value="submit">
-    </form>
-</div>
+                        <input class="button" type="submit" value="submit">
+                    </form>
+               
